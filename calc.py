@@ -1,5 +1,6 @@
 # function to perform calculations
 # 5 + 8 = 13
+
 def compute(expression):
     num0, operator, num1 = expression.split(' ')
     num0, num1 = int(num0), int(num1)
@@ -10,4 +11,6 @@ def compute(expression):
     else:
         print('unknown operator!')
         return None
+        elif operator == '*':
+        return num0 * num1
 
