@@ -1,3 +1,5 @@
+# function to perform calculations
+# 5 + 8 = 13
 def compute(expression):
     values = expression.split(' ')
     num0 = int(values[0])
